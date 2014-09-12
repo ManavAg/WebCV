@@ -1,9 +1,11 @@
 // JavaScript Document
 function ContentEN(a)
    {
-		Bookmarking(a);
-		var i;
-
+alert(a);
+}
+function ContentEN1(a)
+   {
+		
 //		Bookmark_mouse_s(a);
 	   if (a==1)
 	   {

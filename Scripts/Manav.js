@@ -5,7 +5,7 @@ $(document).ready(function()
 {
 	//$('.classysocial').ClassySocial();
 	LangCode=1; //1 for EN, 2 for FR
-	LoadApps();
+	//LoadApps();
 	ResizeTabScreen();
 	$('CVTable tr').click(function(){
         window.location = $(this).attr('href');
@@ -38,7 +38,7 @@ function ResizeTabScreen()
 		
 }
 
-   function LoadApps()
+   function LoadApps1()
    {
 	   var text1="";
 	   var text2="";

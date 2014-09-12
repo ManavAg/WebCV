@@ -138,6 +138,8 @@ body
     font-size: 20px;
 	font-weight:bold;
 	font-family:sans-serif;
+	display:inline-block; 
+	width:50%
 }
 .tagline
 {
@@ -232,7 +234,14 @@ span.stars, span.stars span {
 span.stars span {
     background-position: 0 0;
 }
-
+.closeBtn
+{
+	margin-left:45%; 
+	width:3%; 
+	padding-left:0.5%; 
+	display:inline-block; 
+	position:fixed;
+}
 .classysocial {
 	position:fixed;
 	display:inline-block;
